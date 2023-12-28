@@ -1,3 +1,5 @@
+__version__ = "1.1"
+
 import keyboard
 import threading
 import time
@@ -6,7 +8,7 @@ import pyautogui
 def handle_hotkey():
     print("Hotkey triggered!")
     # Simulate moving the mouse cursor to a specific position
-    pyautogui.moveTo(500, 500, duration=1)
+    pyautogui.moveTo(1500, 1500, duration=1)
 
 # Termination thread function
 def monitor_termination():
